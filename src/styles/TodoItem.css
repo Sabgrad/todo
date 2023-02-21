@@ -1,0 +1,42 @@
+.TodoItem {
+    border: 1px solid grey;
+    margin-top: 10px;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    height: 40px;
+}
+
+.text {
+    display: flex;
+    flex-direction: row;   
+}
+
+.text > span, .text > div {
+    margin-left: 10px;
+}
+
+.btn_delete {
+    display: flex;
+    margin-right: 10px;
+}
+
+.btn_update {
+    display: flex;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.TodoItem button:hover {
+    font-size: 20px;
+}
+
+.priority {
+    display: flex;
+    width: 12px;
+    height: 12px;
+    margin-left: 10px;
+    border-radius: 50%;
+    border: 3px solid;
+}

@@ -1,0 +1,66 @@
+{
+  "todos": [
+    {
+      "title": "soem todo",
+      "completed": false,
+      "category": "Inbox",
+      "description": "todo ",
+      "priority": 3,
+      "id": 1
+    },
+    {
+      "title": "rust ",
+      "completed": false,
+      "category": "Rust",
+      "description": "rust",
+      "priority": 1,
+      "id": 2
+    }
+  ],
+  "todosCategories": [
+    {
+      "id": 1,
+      "title": "All",
+      "favorite": false,
+      "default": true,
+      "type": "default"
+    },
+    {
+      "id": 2,
+      "title": "Inbox",
+      "favorite": false,
+      "default": true,
+      "type": "default"
+    },
+    {
+      "id": 3,
+      "title": "Work",
+      "favorite": false,
+      "default": false
+    },
+    {
+      "id": 4,
+      "title": "Studies",
+      "favorite": false,
+      "default": false
+    },
+    {
+      "id": 5,
+      "title": "React Project",
+      "favorite": false,
+      "default": false
+    },
+    {
+      "id": 6,
+      "title": "React Typescript Redux",
+      "favorite": true,
+      "default": false
+    },
+    {
+      "title": "Rust",
+      "favorite": false,
+      "default": false,
+      "id": 7
+    }
+  ]
+}
